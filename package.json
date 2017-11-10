@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "eslint src/js/** && webpack",
-    "start": "webpack-dashboard -- webpack-dev-server --content-base build/dist --open 'Google Chrome'"
+    "start:chrome": "webpack-dashboard -- webpack-dev-server --content-base build/dist --open 'Google Chrome'",
+    "start": "webpack-dashboard -- webpack-dev-server --content-base build/dist"
   },
   "author": "",
   "license": "ISC",
