@@ -1,0 +1,8 @@
+# ignore build folder
+dist
+
+# ignore webpack config file
+webpack.config.js
+
+# ignore poscss config file
+postcss.config.js
